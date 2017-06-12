@@ -82,7 +82,7 @@ function createSourceObject(str) {
 
 function wrapTerminate(worker, objURL){
     if(!worker || !objURL) return;
-    let term = worker.terminate;
+    var term = worker.terminate;
     worker.objURL = objURL;
     worker.terminate = function(){
         if(worker.objURL)
