@@ -1,5 +1,5 @@
 {
-  "name": "rollup-plugin-bundle-worker",
+  "name": "@gkatsev/rollup-plugin-bundle-worker",
   "version": "0.1.0",
   "description": "Bundles Worker code alongside your main code",
   "main": "src/index.js",
