@@ -5,7 +5,7 @@ var fs = require('fs'),
 module.exports = function () {
     return {
         resolveId: function (importee, importer) {
-            if (importee === 'https://github.com/veridict/rollup-plugin-bundle-worker') {
+            if (importee === 'rollup-plugin-bundle-worker') {
                 return path.resolve(__dirname, 'workerhelper.js');
             }
             else if (importee.indexOf('worker!') === 0) {
