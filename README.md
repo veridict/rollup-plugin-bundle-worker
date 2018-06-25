@@ -1,3 +1,6 @@
+(After issues with the original code we forked https://github.com/gkatsev/rollup-plugin-bundle-worker which worked for now)
+
+
 # rollup-plugin-bundle-worker
 
 Bundles a single JS file alongside your main source code as the source for a
